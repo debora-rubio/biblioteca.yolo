@@ -1,0 +1,17 @@
+names:
+- A
+- B
+- D
+- I
+- M
+- O
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: alfabeto_libras_webcam
+  url: https://universe.roboflow.com/drubio-imoveis/alfabeto_libras_webcam/dataset/1
+  version: 1
+  workspace: drubio-imoveis
+test: ../test/images
+train: ../train/images
+val: ../valid/images
