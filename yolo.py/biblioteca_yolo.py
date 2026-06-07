@@ -1,7 +1,8 @@
 from ultralytics import YOLO
 
-# Carrega o cérebro da yolo treinada com as fotos carregadas no roboflow!
-model = YOLO("runs/detect/train-2/weights/best.pt")
+# Carregamos o modelo (cérebro)
+modelo = YOLO("yolov8n.pt") 
 
 
-results = model.predict(source="0", show=True)
+resultados = modelo.predict(source="0",show=True)
+
